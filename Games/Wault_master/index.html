@@ -3,25 +3,23 @@
 
 <head>
 
-  <meta name="description" content="Vault - Crack the code in 4 tries.">
-  <meta name="title" content="Vault">
+  <meta name="description" content="Wault - Crack the code in 4 tries.">
+  <meta name="title" content="Wault">
   <link rel="icon" type="image/x-icon" href="./util/favicon.ico">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vault- Home</title>
+  <title>Wault- Home</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <link href="./dist/output.css" rel="stylesheet">
-  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  
   <script defer src="./app.js"></script>
 
 </head>
 
 <body class="bg-[#24292E] font-mono w-screen h-screen">
-  <div class="contains">
-  <button onclick="calls()" class="b1" >How to play?</button>
-  </div>
-	<div style="text-align: left; margin-left: 40px;
+
+<div style="text-align: left; margin-left: 40px;
 	font-size: 30px;
 	padding: 5px; "><a href="https://kunjgit.github.io/GameZone/"><i style="color:white;" class="fas fa-home home-icon"></i></a></div>
   <header class="bg-[#1D2125] fixed border-b border-[#141414] h-[35px] w-full">
@@ -72,7 +70,7 @@
             <div class="flex flex-row w-full">
               <input type="number" onKeyPress="if(this.value.length==4) return false;" maxlength="4"
                 placeholder="4-digit code" pattern="[0-9]{4}" autofocus
-                class="bg-[#171A1D] text-slate-400 text-center outline-none w-full rounded-tl-md" id="vaultInput" />
+                class="bg-[#171A1D] text-slate-400 text-center outline-none w-full rounded-tl-md" id="WaultInput" />
 
               <div class="bg-[#1D2125] w-[15%] border-l border-[#141414] flex">
                 <img class="m-auto w-[0.9rem] h-auto hover:cursor-pointer hover:opacity-75" src="util/eraser.svg"
@@ -83,9 +81,9 @@
               </div>
             </div>
             <button type="submit" class="bg-[#1D2125] text-slate-300 hover:text-slate-400 w-full border-t
-              border-[#141414] rounded-b-md" id="vaultSubmit" onclick="addRow();">Confirm</button>
+              border-[#141414] rounded-b-md" id="WaultSubmit" onclick="addRow();">Confirm</button>
           </div>
-          <div class="text-slate-300 text-center mt-5 p-1" id="vaultPassword"></div>
+          <div class="text-slate-300 text-center mt-5 p-1" id="WaultPassword"></div>
         </div>
 
       </div>
